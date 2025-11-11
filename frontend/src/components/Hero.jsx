@@ -19,11 +19,11 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-950 via-slate-900 to-slate-950">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-slate-100 dark:from-slate-950 dark:via-slate-900 dark:to-slate-950 transition-colors duration-500">
       {/* Animated background elements */}
       <div className="absolute inset-0">
         <motion.div
-          className="absolute w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl"
+          className="absolute w-96 h-96 bg-cyan-500/20 dark:bg-cyan-500/10 rounded-full blur-3xl"
           animate={{
             x: mousePosition.x / 20,
             y: mousePosition.y / 20,
@@ -31,14 +31,14 @@ const Hero = () => {
           style={{ top: '20%', left: '20%' }}
         />
         <motion.div
-          className="absolute w-96 h-96 bg-amber-500/10 rounded-full blur-3xl"
+          className="absolute w-96 h-96 bg-amber-500/20 dark:bg-amber-500/10 rounded-full blur-3xl"
           animate={{
             x: -mousePosition.x / 30,
             y: -mousePosition.y / 30,
           }}
           style={{ bottom: '20%', right: '20%' }}
         />
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(6,182,212,0.1),transparent_50%)]" />
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(6,182,212,0.15),transparent_50%)] dark:bg-[radial-gradient(circle_at_50%_50%,rgba(6,182,212,0.1),transparent_50%)]" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 py-20 text-center">
