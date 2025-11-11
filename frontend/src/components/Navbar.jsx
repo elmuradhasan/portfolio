@@ -34,7 +34,7 @@ const Navbar = () => {
       transition={{ duration: 0.5 }}
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-slate-950/80 backdrop-blur-lg border-b border-white/10 shadow-lg'
+          ? 'bg-white/80 dark:bg-slate-950/80 backdrop-blur-lg border-b border-slate-200/50 dark:border-white/10 shadow-lg'
           : 'bg-transparent'
       }`}
     >
