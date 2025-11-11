@@ -44,9 +44,9 @@ const Navbar = () => {
           <motion.button
             onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
             whileHover={{ scale: 1.05 }}
-            className="text-2xl font-bold text-white cursor-pointer"
+            className="text-2xl font-bold cursor-pointer"
           >
-            <span className="bg-gradient-to-r from-cyan-400 to-amber-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-cyan-500 to-amber-500 bg-clip-text text-transparent">
               {personalInfo.username}
             </span>
           </motion.button>
