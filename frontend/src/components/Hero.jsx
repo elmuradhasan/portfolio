@@ -89,7 +89,7 @@ const Hero = () => {
             </button>
             <button
               onClick={() => scrollToSection('contact')}
-              className="px-8 py-4 bg-white/5 backdrop-blur-lg rounded-xl font-semibold text-white border border-white/10 hover:bg-white/10 transition-all duration-300 hover:scale-105"
+              className="px-8 py-4 bg-slate-100/80 dark:bg-white/5 backdrop-blur-lg rounded-xl font-semibold text-slate-900 dark:text-white border border-slate-300 dark:border-white/10 hover:bg-slate-200 dark:hover:bg-white/10 transition-all duration-300 hover:scale-105"
             >
               Get In Touch
             </button>
@@ -105,23 +105,23 @@ const Hero = () => {
               href={personalInfo.social.github}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white/5 backdrop-blur-lg rounded-lg border border-white/10 hover:bg-white/10 hover:border-cyan-500/50 transition-all duration-300 hover:scale-110"
+              className="p-3 bg-slate-100/80 dark:bg-white/5 backdrop-blur-lg rounded-lg border border-slate-300 dark:border-white/10 hover:bg-slate-200 dark:hover:bg-white/10 hover:border-cyan-500/50 transition-all duration-300 hover:scale-110"
             >
-              <Github className="w-6 h-6 text-white" />
+              <Github className="w-6 h-6 text-slate-900 dark:text-white" />
             </a>
             <a
               href={personalInfo.social.linkedin}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-3 bg-white/5 backdrop-blur-lg rounded-lg border border-white/10 hover:bg-white/10 hover:border-cyan-500/50 transition-all duration-300 hover:scale-110"
+              className="p-3 bg-slate-100/80 dark:bg-white/5 backdrop-blur-lg rounded-lg border border-slate-300 dark:border-white/10 hover:bg-slate-200 dark:hover:bg-white/10 hover:border-cyan-500/50 transition-all duration-300 hover:scale-110"
             >
-              <Linkedin className="w-6 h-6 text-white" />
+              <Linkedin className="w-6 h-6 text-slate-900 dark:text-white" />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}
-              className="p-3 bg-white/5 backdrop-blur-lg rounded-lg border border-white/10 hover:bg-white/10 hover:border-cyan-500/50 transition-all duration-300 hover:scale-110"
+              className="p-3 bg-slate-100/80 dark:bg-white/5 backdrop-blur-lg rounded-lg border border-slate-300 dark:border-white/10 hover:bg-slate-200 dark:hover:bg-white/10 hover:border-cyan-500/50 transition-all duration-300 hover:scale-110"
             >
-              <Mail className="w-6 h-6 text-white" />
+              <Mail className="w-6 h-6 text-slate-900 dark:text-white" />
             </a>
           </motion.div>
         </motion.div>
