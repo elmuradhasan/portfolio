@@ -80,9 +80,6 @@ const Footer = () => {
             <p className="text-slate-400 text-sm">
               © {currentYear} {personalInfo.name}. All rights reserved.
             </p>
-            <p className="text-slate-500 text-sm flex items-center gap-2">
-              Made with <Heart className="w-4 h-4 text-red-500 fill-red-500" /> and React
-            </p>
           </div>
         </div>
       </div>

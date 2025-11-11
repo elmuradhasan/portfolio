@@ -32,37 +32,37 @@ export const experience = [
   {
     id: 1,
     role: "Lead Frontend Developer",
-    company: "Tech Innovations Inc.",
-    period: "2022 - Present",
+    company: "AFB Bank.",
+    period: "2025 - Present",
     description: "Leading frontend development team, architecting scalable solutions with React and Next.js",
     achievements: [
       "Improved app performance by 60%",
-      "Led team of 5 developers",
+      "Commumity with backend team to enhance API efficiency",
       "Implemented design system"
     ]
   },
   {
     id: 2,
-    role: "Senior Frontend Developer",
-    company: "Digital Solutions Co.",
-    period: "2020 - 2022",
+    role: "Middle Frontend Developer",
+    company: "Bank Respublika",
+    period: "2022 - 2025 (military service break included)",
     description: "Developed complex web applications using modern JavaScript frameworks",
     achievements: [
-      "Built 15+ production applications",
-      "Mentored junior developers",
+      "Built 5+ production applications",
+      "Optimized codebase for maintainability",
       "Reduced bundle size by 40%"
     ]
   },
   {
     id: 3,
-    role: "Frontend Developer",
-    company: "StartUp Labs",
-    period: "2018 - 2020",
+    role: "Frontend Developer | Engineer Programmer",
+    company: "AMEA information Technology Institute",
+    period: "2021 - 2022",
     description: "Created responsive and interactive user interfaces",
     achievements: [
-      "Developed component library",
-      "Implemented CI/CD pipeline",
-      "Achieved 98% test coverage"
+      "Supported institution's website based on php",
+      "Writed articles on web development",
+      "Search machine learning model development"
     ]
   }
 ];
