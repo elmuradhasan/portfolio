@@ -70,8 +70,8 @@ const About = () => {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10">
-              <p className="text-lg text-slate-300 leading-relaxed">
+            <div className="bg-slate-100/80 dark:bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-slate-300 dark:border-white/10">
+              <p className="text-lg text-slate-700 dark:text-slate-300 leading-relaxed">
                 {personalInfo.bio}
               </p>
             </div>
