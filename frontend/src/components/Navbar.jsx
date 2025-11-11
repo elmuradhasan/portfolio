@@ -92,14 +92,14 @@ const Navbar = () => {
           initial={{ opacity: 0, height: 0 }}
           animate={{ opacity: 1, height: 'auto' }}
           exit={{ opacity: 0, height: 0 }}
-          className="md:hidden bg-slate-950/95 backdrop-blur-lg border-t border-white/10"
+          className="md:hidden bg-white/95 dark:bg-slate-950/95 backdrop-blur-lg border-t border-slate-200 dark:border-white/10"
         >
           <div className="px-6 py-4 space-y-4">
             {navLinks.map((link) => (
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="block w-full text-left text-slate-300 hover:text-cyan-400 font-medium py-2 transition-colors duration-300"
+                className="block w-full text-left text-slate-700 dark:text-slate-300 hover:text-cyan-600 dark:hover:text-cyan-400 font-medium py-2 transition-colors duration-300"
               >
                 {link.label}
               </button>
