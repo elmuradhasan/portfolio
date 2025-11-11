@@ -52,17 +52,18 @@ const Navbar = () => {
           </motion.button>
 
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center gap-8">
+          <div className="hidden md:flex items-center gap-6">
             {navLinks.map((link) => (
               <button
                 key={link.id}
                 onClick={() => scrollToSection(link.id)}
-                className="text-slate-300 hover:text-white font-medium transition-colors duration-300 relative group"
+                className="text-slate-300 dark:text-slate-300 hover:text-slate-900 dark:hover:text-white font-medium transition-colors duration-300 relative group"
               >
                 {link.label}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-gradient-to-r from-cyan-500 to-amber-500 group-hover:w-full transition-all duration-300" />
               </button>
             ))}
+            <ThemeToggle />
             <button
               onClick={() => scrollToSection('contact')}
               className="px-6 py-2.5 bg-gradient-to-r from-cyan-500 to-cyan-600 rounded-lg font-semibold text-white shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 transition-all duration-300 hover:scale-105"
