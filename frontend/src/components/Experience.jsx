@@ -53,16 +53,16 @@ const Experience = () => {
                     <span className="text-sm">{exp.period}</span>
                   </div>
 
-                  <p className="text-slate-300 mb-6 leading-relaxed">
+                  <p className="text-slate-600 dark:text-slate-300 mb-6 leading-relaxed">
                     {exp.description}
                   </p>
 
                   <div className="space-y-2">
-                    <p className="text-sm font-semibold text-white mb-3">Key Achievements:</p>
+                    <p className="text-sm font-semibold text-slate-800 dark:text-white mb-3">Key Achievements:</p>
                     {exp.achievements.map((achievement, idx) => (
                       <div key={idx} className="flex items-start gap-2">
-                        <CheckCircle className="w-4 h-4 text-cyan-400 mt-0.5 flex-shrink-0" />
-                        <span className="text-sm text-slate-300">{achievement}</span>
+                        <CheckCircle className="w-4 h-4 text-cyan-500 dark:text-cyan-400 mt-0.5 flex-shrink-0" />
+                        <span className="text-sm text-slate-700 dark:text-slate-300">{achievement}</span>
                       </div>
                     ))}
                   </div>

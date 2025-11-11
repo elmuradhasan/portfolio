@@ -13,7 +13,7 @@ const Projects = () => {
     : projects.filter(project => project.category === selectedCategory);
 
   return (
-    <section id="projects" className="py-24 bg-gradient-to-b from-slate-900 to-slate-950">
+    <section id="projects" className="py-24 bg-white dark:bg-slate-900 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -22,7 +22,7 @@ const Projects = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-12"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
             Featured Projects
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-amber-500 mx-auto rounded-full" />
@@ -42,7 +42,7 @@ const Projects = () => {
               className={`px-6 py-3 rounded-xl font-medium transition-all duration-300 ${
                 selectedCategory === category.id
                   ? 'bg-gradient-to-r from-cyan-500 to-cyan-600 text-white shadow-lg shadow-cyan-500/30'
-                  : 'bg-white/5 backdrop-blur-lg text-slate-300 border border-white/10 hover:bg-white/10'
+                  : 'bg-white dark:bg-white/5 backdrop-blur-lg text-slate-700 dark:text-slate-300 border border-slate-200 dark:border-white/10 hover:bg-slate-50 dark:hover:bg-white/10'
               }`}
             >
               {category.label}
@@ -68,14 +68,14 @@ const Projects = () => {
                 onClick={() => setSelectedProject(project)}
                 className="group cursor-pointer"
               >
-                <div className="bg-white/5 backdrop-blur-lg rounded-2xl overflow-hidden border border-white/10 hover:border-cyan-500/50 transition-all duration-300 h-full">
+                <div className="bg-white dark:bg-white/5 backdrop-blur-lg rounded-2xl overflow-hidden border border-slate-200 dark:border-white/10 hover:border-cyan-500/50 transition-all duration-300 h-full shadow-sm hover:shadow-md">
                   <div className="relative overflow-hidden aspect-video">
                     <img
                       src={project.image}
                       alt={project.title}
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/50 to-transparent opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-slate-900/90 via-slate-900/40 to-transparent dark:from-slate-950 dark:via-slate-950/50 opacity-60 group-hover:opacity-40 transition-opacity duration-300" />
                     {project.featured && (
                       <div className="absolute top-4 right-4 px-3 py-1 bg-amber-500 text-white text-xs font-semibold rounded-full">
                         Featured
@@ -87,7 +87,7 @@ const Projects = () => {
                     <h3 className="text-xl font-bold text-white group-hover:text-cyan-400 transition-colors duration-300">
                       {project.title}
                     </h3>
-                    <p className="text-slate-400 text-sm leading-relaxed">
+                    <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
                       {project.description}
                     </p>
 
