@@ -47,7 +47,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-24 bg-gradient-to-b from-slate-950 to-slate-900">
+    <section id="about" className="py-24 bg-gradient-to-b from-white to-slate-50 dark:from-slate-950 dark:to-slate-900 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
