@@ -49,7 +49,7 @@ const Hero = () => {
           className="space-y-6"
         >
           <motion.h1
-            className="text-5xl md:text-7xl lg:text-8xl font-bold text-white mb-4"
+            className="text-5xl md:text-7xl lg:text-8xl font-bold text-slate-900 dark:text-white mb-4"
             initial={{ opacity: 0, scale: 0.9 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.5, delay: 0.2 }}
@@ -61,7 +61,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.4 }}
-            className="text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-cyan-400 to-amber-400 bg-clip-text text-transparent"
+            className="text-2xl md:text-3xl lg:text-4xl font-semibold bg-gradient-to-r from-cyan-500 to-amber-500 bg-clip-text text-transparent"
           >
             {personalInfo.title}
           </motion.div>
@@ -70,7 +70,7 @@ const Hero = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.6 }}
-            className="text-lg md:text-xl text-slate-300 max-w-3xl mx-auto leading-relaxed"
+            className="text-lg md:text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto leading-relaxed"
           >
             {personalInfo.tagline}
           </motion.p>
