@@ -7,7 +7,7 @@ const Experience = () => {
   const scrollRef = useRef(null);
 
   return (
-    <section className="py-24 bg-slate-950">
+    <section className="py-24 bg-slate-50 dark:bg-slate-950 transition-colors duration-500">
       <div className="max-w-7xl mx-auto px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -16,7 +16,7 @@ const Experience = () => {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold text-slate-900 dark:text-white mb-4">
             Experience
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-cyan-500 to-amber-500 mx-auto rounded-full" />
@@ -35,16 +35,16 @@ const Experience = () => {
                 whileInView={{ opacity: 1, x: 0 }}
                 viewport={{ once: true }}
                 transition={{ delay: index * 0.2 }}
-                className="w-80 flex-shrink-0"
+                className="w-80 flex-shrink-0 group"
               >
-                <div className="bg-white/5 backdrop-blur-lg rounded-2xl p-8 border border-white/10 hover:bg-white/10 hover:border-cyan-500/50 transition-all duration-300 h-full group">
+                <div className="bg-white dark:bg-slate-800/50 backdrop-blur-lg rounded-2xl p-8 border border-slate-200 dark:border-white/10 hover:border-cyan-500/50 transition-all duration-300 h-full group-hover:shadow-lg group-hover:shadow-cyan-500/10">
                   <div className="flex items-center gap-3 mb-4">
                     <div className="p-3 bg-cyan-500/10 rounded-lg group-hover:bg-cyan-500/20 transition-colors duration-300">
                       <Briefcase className="w-6 h-6 text-cyan-400" />
                     </div>
                     <div className="flex-1">
-                      <h3 className="text-xl font-bold text-white">{exp.role}</h3>
-                      <p className="text-cyan-400 font-medium">{exp.company}</p>
+                      <h3 className="text-xl font-bold text-slate-800 dark:text-white">{exp.role}</h3>
+                      <p className="text-slate-600 dark:text-slate-400 text-sm">{exp.company}</p>
                     </div>
                   </div>
 
