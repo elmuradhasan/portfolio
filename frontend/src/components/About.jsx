@@ -87,15 +87,15 @@ const About = () => {
                 <motion.div
                   key={index}
                   variants={itemVariants}
-                  className="bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-white/10 hover:bg-white/10 transition-all duration-300 group"
+                  className="bg-slate-100/80 dark:bg-white/5 backdrop-blur-lg rounded-xl p-6 border border-slate-300 dark:border-white/10 hover:bg-slate-200 dark:hover:bg-white/10 transition-all duration-300 group"
                 >
-                  <div className="text-cyan-400 mb-3 group-hover:scale-110 transition-transform duration-300">
+                  <div className="text-cyan-500 mb-3 group-hover:scale-110 transition-transform duration-300">
                     {highlight.icon}
                   </div>
-                  <h3 className="text-white font-semibold text-lg mb-2">
+                  <h3 className="text-slate-900 dark:text-white font-semibold text-lg mb-2">
                     {highlight.title}
                   </h3>
-                  <p className="text-slate-400 text-sm">
+                  <p className="text-slate-600 dark:text-slate-400 text-sm">
                     {highlight.description}
                   </p>
                 </motion.div>
