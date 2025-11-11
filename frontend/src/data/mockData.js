@@ -6,12 +6,12 @@ export const personalInfo = {
   title: "Lead Frontend Developer",
   tagline: "Crafting exceptional digital experiences with modern web technologies",
   bio: "Passionate frontend developer with expertise in building scalable, performant web applications. I specialize in React, Next.js, and TypeScript, focusing on creating intuitive user interfaces and seamless user experiences.",
-  email: "elmurad@example.com",
+  email: "elmuradhasan@gmail.com",
   location: "Remote",
   social: {
     github: "https://github.com/elmuradhasan",
-    linkedin: "https://linkedin.com/in/elmuradhasan",
-    twitter: "https://twitter.com/elmuradhasan"
+    linkedin: "https://www.linkedin.com/in/elmurad-h%C9%99s%C9%99nov-627220216/",
+    instagram: "https://elmuradhasan/elmuradhasan"
   }
 };
 
@@ -32,17 +32,29 @@ export const experience = [
   {
     id: 1,
     role: "Lead Frontend Developer",
-    company: "AFB Bank.",
+    company: "AFB Bank",
     period: "2025 - Present",
     description: "Leading frontend development team, architecting scalable solutions with React and Next.js",
     achievements: [
       "Improved app performance by 60%",
       "Commumity with backend team to enhance API efficiency",
-      "Implemented design system"
+      "Created bank web application from scratch "
+    ]
+  },
+    {
+    id:2,
+    role: "Frontend Instructor",
+    company: "Software Village",
+    period: "2024 - 2025",
+    description: "I have taught students on frontend technologies including React, Next.js, and TypeScript.",
+    achievements: [
+      "Designed comprehensive curriculum for frontend development",
+      "Mentored 14+ students to successful job placements",
+      "Organized workshops and coding bootcamps"
     ]
   },
   {
-    id: 2,
+    id: 3,
     role: "Middle Frontend Developer",
     company: "Bank Respublika",
     period: "2022 - 2025 (military service break included)",
@@ -54,8 +66,8 @@ export const experience = [
     ]
   },
   {
-    id: 3,
-    role: "Frontend Developer | Engineer Programmer",
+    id: 4,
+    role: "Engineer Programmer",
     company: "AMEA information Technology Institute",
     period: "2021 - 2022",
     description: "Created responsive and interactive user interfaces",
@@ -73,9 +85,9 @@ export const projects = [
     title: "E-Commerce Platform",
     description: "A modern, full-featured e-commerce platform with real-time inventory management and payment processing.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
-    tags: ["React", "Next.js", "TypeScript", "Stripe"],
+    tags: ["React", "Redux", "TypeScript", "Tailwind"],
     category: "Next.js",
-    demoUrl: "#",
+    demoUrl: "https://surpriseaz.netlify.app/",
     githubUrl: "#",
     featured: true,
     caseStudy: {
@@ -86,12 +98,12 @@ export const projects = [
   },
   {
     id: 2,
-    title: "Task Management Dashboard",
+    title: "Kontaktimaz - Contact Management App",
     description: "Real-time collaborative task management tool with drag-and-drop interface and team analytics.",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
     tags: ["React", "TypeScript", "GraphQL", "Framer Motion"],
     category: "React",
-    demoUrl: "#",
+    demoUrl: "https://kontaktimaz.netlify.app/",
     githubUrl: "#",
     featured: true,
     caseStudy: {
@@ -102,12 +114,12 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Social Media Analytics",
+    title: "My portfolio version 2.0",
     description: "Comprehensive analytics dashboard for social media metrics with beautiful data visualizations.",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
     tags: ["Next.js", "TypeScript", "D3.js", "Tailwind"],
     category: "Next.js",
-    demoUrl: "#",
+    demoUrl: "https://elmuradhasan.github.io/myportfolio/",
     githubUrl: "#",
     featured: false,
     caseStudy: {
