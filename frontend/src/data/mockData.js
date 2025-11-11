@@ -96,6 +96,22 @@ export const projects = [
       results: "Achieved 95+ Lighthouse score, handling 10k+ concurrent users with sub-second load times."
     }
   },
+    {
+    id: 5,
+    title: "Toyplan for vendors and couples",
+    description: "Toyplan is a comprehensive platform for vendors and couples to manage their orders and assignments.",
+    image: "https://www.leugardens.org/files/assets/leugardens/v/1/weddings/wedding-1.png?dimension=pageimagefullwidth&w=1140",
+    tags: ["Next.js", "TypeScript", "OpenAI", "Prisma"],
+    category: "Next.js",
+    demoUrl: "https://wedding-ochre-pi.vercel.app/",
+    githubUrl: "#",
+    featured: true,
+    caseStudy: {
+      challenge: "Create an intuitive interface for AI content generation with fine-grained control.",
+      solution: "Integrated OpenAI API with custom prompts, real-time generation, and content refinement tools.",
+      results: "Reduced content creation time by 70%, with 85% of generated content requiring minimal edits."
+    }
+  },
   {
     id: 2,
     title: "Kontaktimaz - Contact Management App",
@@ -132,7 +148,7 @@ export const projects = [
     id: 4,
     title: "EDUCRM for teachers and students and courses",
     description: "EDUCRM is a comprehensive platform for teachers and students to manage their courses and assignments.",
-    image: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
+    image: "https://tse4.mm.bing.net/th/id/OIP.S4HBJbufIe3sL09QlCMhowHaC9?pid=Api&P=0&h=220",
     tags: ["React", "TypeScript", "Node.js", "MongoDB"],
     category: "React",
     demoUrl: "https://educrm-3zso.vercel.app/",
@@ -144,22 +160,7 @@ export const projects = [
       results: "1000+ portfolios created in first month, 4.8/5 user satisfaction rating."
     }
   },
-  {
-    id: 5,
-    title: "Toyplan for vendors and couples",
-    description: "Toyplan is a comprehensive platform for vendors and couples to manage their orders and assignments.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
-    tags: ["Next.js", "TypeScript", "OpenAI", "Prisma"],
-    category: "Next.js",
-    demoUrl: "https://wedding-ochre-pi.vercel.app/",
-    githubUrl: "#",
-    featured: true,
-    caseStudy: {
-      challenge: "Create an intuitive interface for AI content generation with fine-grained control.",
-      solution: "Integrated OpenAI API with custom prompts, real-time generation, and content refinement tools.",
-      results: "Reduced content creation time by 70%, with 85% of generated content requiring minimal edits."
-    }
-  }
+
 ];
 
 export const projectCategories = [
